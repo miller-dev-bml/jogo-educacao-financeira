@@ -1,43 +1,49 @@
 [
   {
     "_id": "1",
-    "question": "Você quer muito ir ao show da sua banda favorita, mas percebe que o ingresso custa mais do que você tem agora. Qual é a sua primeira ação?",
+    "question": "Você quer muito ir ao show da sua banda favorita. Qual é a sua primeira ação?",
     "options": [
       {
-        "text": "Pegar dinheiro emprestado de um amigo para comprar o ingresso.",
+        "text": "Pegar dinheiro emprestado de um amigo.",
         "isCorrect": false,
-        "feedback": "Pegar dinheiro emprestado pode te deixar em dívida sem garantir que você conseguirá pagar depois. Que tal tentar outras alternativas?"
+        "feedback": "Pegar dinheiro emprestado pode te deixar em dívida.",
+        "pontos": 0
       },
       {
-        "text": "Deixar de comprar lanches na escola e economizar o que seria gasto com isso.",
+        "text": "Economizar e cortar alguns gastos.",
         "isCorrect": "partial",
-        "feedback": "Ótima ideia economizar! Você já vai economizar um pouco, mas será que essa quantia é suficiente para o ingresso?"
+        "feedback": "Boa escolha, mas ainda pode ser melhor.",
+        "pontos": 5
       },
       {
-        "text": "Fazer um plano de economia, destinando uma quantia fixa por semana para o ingresso.",
+        "text": "Fazer um plano de economia.",
         "isCorrect": true,
-        "feedback": "Boa escolha! Planejar um valor fixo semanal vai te ajudar a juntar o dinheiro necessário de forma organizada."
+        "feedback": "Ótima escolha! Planejar é o caminho certo.",
+        "pontos": 10
       }
     ]
   },
   {
     "_id": "2",
-    "question": "Agora que você tem um plano, percebe que o show está chegando em breve. Como você pode aumentar sua renda para alcançar o valor?",
+    "question": "Agora que você tem um plano, percebe que o show está chegando em breve. Como você pode aumentar sua renda?",
     "options": [
       {
-        "text": "Vender alguns itens que não precisa mais, mas sem calcular se isso vai realmente cobrir o valor.",
+        "text": "Vender alguns itens que não precisa mais, mas sem calcular o valor.",
         "isCorrect": false,
-        "feedback": "Vender itens pode ajudar, mas sem uma previsão de quanto eles podem render, é arriscado depender só disso."
+        "feedback": "Sem uma previsão de quanto vão render, é arriscado depender disso.",
+        "pontos": 0
       },
       {
-        "text": "Fazer trabalhos temporários, como ajudar vizinhos em tarefas, mas gastar uma parte do que ganhar com outras coisas.",
+        "text": "Fazer trabalhos temporários e gastar parte do que ganhar.",
         "isCorrect": "partial",
-        "feedback": "Ótima iniciativa em buscar uma renda extra, mas é importante manter o foco e destinar tudo para o ingresso, evitando gastar antes de alcançar seu objetivo."
+        "feedback": "Buscar renda extra é bom, mas é importante manter o foco no objetivo.",
+        "pontos": 5
       },
       {
-        "text": "Planejar uma venda de itens desnecessários e fazer pequenos trabalhos, guardando todo o dinheiro extra para o ingresso.",
+        "text": "Planejar uma venda de itens e fazer trabalhos temporários, guardando o valor.",
         "isCorrect": true,
-        "feedback": "Excelente! Você definiu ações para aumentar sua renda e vai guardar o valor para o ingresso, mantendo o foco no objetivo."
+        "feedback": "Excelente! Você está no caminho certo.",
+        "pontos": 10
       }
     ]
   },
@@ -48,38 +54,44 @@
       {
         "text": "Aceitar o convite e gastar o dinheiro reservado para o ingresso.",
         "isCorrect": false,
-        "feedback": "Isso vai atrasar o seu objetivo. Manter o foco no ingresso é importante se você quer alcançar o seu sonho."
+        "feedback": "Isso vai atrasar o seu objetivo. Tente manter o foco.",
+        "pontos": 0
       },
       {
         "text": "Sair, mas definir um limite máximo de gastos.",
         "isCorrect": "partial",
-        "feedback": "Boa escolha ao definir um limite! Mas será que esse gasto não pode comprometer o tempo para juntar o valor total do ingresso?"
+        "feedback": "Boa escolha ao definir um limite! Mas cuidado para não comprometer o valor do ingresso.",
+        "pontos": 5
       },
       {
-        "text": "Explicar ao amigo que está economizando para o show e sugerir uma alternativa mais econômica.",
+        "text": "Explicar ao amigo que está economizando e sugerir algo mais econômico.",
         "isCorrect": true,
-        "feedback": "Excelente! Você encontrou uma forma de socializar sem comprometer sua meta financeira."
+        "feedback": "Ótimo! Você encontrou uma forma de socializar sem comprometer a meta.",
+        "pontos": 10
       }
     ]
   },
   {
     "_id": "4",
-    "question": "Você finalmente conseguiu juntar a maior parte do valor, mas faltam algumas semanas para o show. O que você faz?",
+    "question": "Você conseguiu juntar a maior parte do valor, mas faltam algumas semanas para o show. O que você faz?",
     "options": [
       {
-        "text": "Gasta parte do que juntou com outras coisas e decide que depois conseguirá completar o valor.",
+        "text": "Gasta parte do que juntou e decide completar depois.",
         "isCorrect": false,
-        "feedback": "Gastando o valor que você economizou, fica ainda mais difícil alcançar o valor total. Manter o foco até o final é a melhor opção."
+        "feedback": "Isso dificulta alcançar o valor total. Tente manter o foco.",
+        "pontos": 0
       },
       {
         "text": "Continua economizando, mas com menos frequência.",
         "isCorrect": "partial",
-        "feedback": "Legal que você continua economizando! Porém, é importante manter a mesma disciplina até o final para garantir o ingresso."
+        "feedback": "Bom que continua economizando, mas é importante manter a disciplina.",
+        "pontos": 5
       },
       {
-        "text": "Mantém o ritmo de economia para assegurar que terá o valor completo a tempo.",
+        "text": "Mantém o ritmo para assegurar o valor completo a tempo.",
         "isCorrect": true,
-        "feedback": "Ótimo! Seguir com o plano até o final é essencial para atingir o valor completo e não ter surpresas."
+        "feedback": "Ótimo! Seguir com o plano até o final é essencial.",
+        "pontos": 10
       }
     ]
   },
@@ -88,19 +100,22 @@
     "question": "Você conseguiu juntar o valor para o ingresso, mas descobre que haverá uma promoção em breve. O que você decide fazer?",
     "options": [
       {
-        "text": "Compra o ingresso imediatamente, sem se importar com o valor da promoção.",
+        "text": "Compra o ingresso imediatamente, sem esperar a promoção.",
         "isCorrect": false,
-        "feedback": "Comprar o ingresso já te garante o acesso, mas será que não vale a pena esperar a promoção para economizar?"
+        "feedback": "Comprar agora garante o acesso, mas talvez valha a pena esperar.",
+        "pontos": 0
       },
       {
-        "text": "Espera a promoção, mas decide gastar um pouco do valor guardado enquanto aguarda.",
+        "text": "Espera a promoção, mas gasta um pouco do valor enquanto aguarda.",
         "isCorrect": "partial",
-        "feedback": "Esperar a promoção é uma boa decisão! Mas gastar o valor guardado pode comprometer a compra do ingresso caso a promoção não aconteça."
+        "feedback": "Esperar a promoção é bom, mas cuidado para não gastar antes de garantir o ingresso.",
+        "pontos": 5
       },
       {
-        "text": "Espera a promoção, mantendo o valor reservado sem gastar em outras coisas.",
+        "text": "Espera a promoção, mantendo o valor reservado sem gastar.",
         "isCorrect": true,
-        "feedback": "Perfeito! Aguardar a promoção sem gastar o valor guardado é uma excelente estratégia de consumo consciente."
+        "feedback": "Excelente! Aguardar a promoção sem gastar o valor é uma boa estratégia.",
+        "pontos": 10
       }
     ]
   }
