@@ -1,25 +1,107 @@
 [
-    {
-      "id": 1,
-      "pergunta": "O que é juros compostos?",
-      "opcoes": [
-        "a) Juros calculados apenas sobre o valor principal.",
-        "b) Juros calculados sobre o valor principal e sobre os juros acumulados.",
-        "c) Juros que não se acumulam ao longo do tempo.",
-        "d) Nenhuma das anteriores."
-      ],
-      "resposta": "b"
-    },
-    {
-      "id": 2,
-      "pergunta": "Qual é a importância de ter um orçamento pessoal?",
-      "opcoes": [
-        "a) Aumentar os gastos mensais.",
-        "b) Controlar e planejar as finanças pessoais.",
-        "c) Evitar economizar dinheiro.",
-        "d) Nenhuma das anteriores."
-      ],
-      "resposta": "b"
-    }
-  ]
-  
+  {
+    "_id": "1",
+    "question": "Você quer muito ir ao show da sua banda favorita, mas percebe que o ingresso custa mais do que você tem agora. Qual é a sua primeira ação?",
+    "options": [
+      {
+        "text": "Pegar dinheiro emprestado de um amigo para comprar o ingresso.",
+        "isCorrect": false,
+        "feedback": "Pegar dinheiro emprestado pode te deixar em dívida sem garantir que você conseguirá pagar depois. Que tal tentar outras alternativas?"
+      },
+      {
+        "text": "Deixar de comprar lanches na escola e economizar o que seria gasto com isso.",
+        "isCorrect": "partial",
+        "feedback": "Ótima ideia economizar! Você já vai economizar um pouco, mas será que essa quantia é suficiente para o ingresso?"
+      },
+      {
+        "text": "Fazer um plano de economia, destinando uma quantia fixa por semana para o ingresso.",
+        "isCorrect": true,
+        "feedback": "Boa escolha! Planejar um valor fixo semanal vai te ajudar a juntar o dinheiro necessário de forma organizada."
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "question": "Agora que você tem um plano, percebe que o show está chegando em breve. Como você pode aumentar sua renda para alcançar o valor?",
+    "options": [
+      {
+        "text": "Vender alguns itens que não precisa mais, mas sem calcular se isso vai realmente cobrir o valor.",
+        "isCorrect": false,
+        "feedback": "Vender itens pode ajudar, mas sem uma previsão de quanto eles podem render, é arriscado depender só disso."
+      },
+      {
+        "text": "Fazer trabalhos temporários, como ajudar vizinhos em tarefas, mas gastar uma parte do que ganhar com outras coisas.",
+        "isCorrect": "partial",
+        "feedback": "Ótima iniciativa em buscar uma renda extra, mas é importante manter o foco e destinar tudo para o ingresso, evitando gastar antes de alcançar seu objetivo."
+      },
+      {
+        "text": "Planejar uma venda de itens desnecessários e fazer pequenos trabalhos, guardando todo o dinheiro extra para o ingresso.",
+        "isCorrect": true,
+        "feedback": "Excelente! Você definiu ações para aumentar sua renda e vai guardar o valor para o ingresso, mantendo o foco no objetivo."
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "question": "Um amigo te convida para sair e gastar um pouco no final de semana. O que você faz?",
+    "options": [
+      {
+        "text": "Aceitar o convite e gastar o dinheiro reservado para o ingresso.",
+        "isCorrect": false,
+        "feedback": "Isso vai atrasar o seu objetivo. Manter o foco no ingresso é importante se você quer alcançar o seu sonho."
+      },
+      {
+        "text": "Sair, mas definir um limite máximo de gastos.",
+        "isCorrect": "partial",
+        "feedback": "Boa escolha ao definir um limite! Mas será que esse gasto não pode comprometer o tempo para juntar o valor total do ingresso?"
+      },
+      {
+        "text": "Explicar ao amigo que está economizando para o show e sugerir uma alternativa mais econômica.",
+        "isCorrect": true,
+        "feedback": "Excelente! Você encontrou uma forma de socializar sem comprometer sua meta financeira."
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "question": "Você finalmente conseguiu juntar a maior parte do valor, mas faltam algumas semanas para o show. O que você faz?",
+    "options": [
+      {
+        "text": "Gasta parte do que juntou com outras coisas e decide que depois conseguirá completar o valor.",
+        "isCorrect": false,
+        "feedback": "Gastando o valor que você economizou, fica ainda mais difícil alcançar o valor total. Manter o foco até o final é a melhor opção."
+      },
+      {
+        "text": "Continua economizando, mas com menos frequência.",
+        "isCorrect": "partial",
+        "feedback": "Legal que você continua economizando! Porém, é importante manter a mesma disciplina até o final para garantir o ingresso."
+      },
+      {
+        "text": "Mantém o ritmo de economia para assegurar que terá o valor completo a tempo.",
+        "isCorrect": true,
+        "feedback": "Ótimo! Seguir com o plano até o final é essencial para atingir o valor completo e não ter surpresas."
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "question": "Você conseguiu juntar o valor para o ingresso, mas descobre que haverá uma promoção em breve. O que você decide fazer?",
+    "options": [
+      {
+        "text": "Compra o ingresso imediatamente, sem se importar com o valor da promoção.",
+        "isCorrect": false,
+        "feedback": "Comprar o ingresso já te garante o acesso, mas será que não vale a pena esperar a promoção para economizar?"
+      },
+      {
+        "text": "Espera a promoção, mas decide gastar um pouco do valor guardado enquanto aguarda.",
+        "isCorrect": "partial",
+        "feedback": "Esperar a promoção é uma boa decisão! Mas gastar o valor guardado pode comprometer a compra do ingresso caso a promoção não aconteça."
+      },
+      {
+        "text": "Espera a promoção, mantendo o valor reservado sem gastar em outras coisas.",
+        "isCorrect": true,
+        "feedback": "Perfeito! Aguardar a promoção sem gastar o valor guardado é uma excelente estratégia de consumo consciente."
+      }
+    ]
+  }
+]
