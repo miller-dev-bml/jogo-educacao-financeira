@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "pergunta": "O que é juros compostos?",
+      "opcoes": [
+        "a) Juros calculados apenas sobre o valor principal.",
+        "b) Juros calculados sobre o valor principal e sobre os juros acumulados.",
+        "c) Juros que não se acumulam ao longo do tempo.",
+        "d) Nenhuma das anteriores."
+      ],
+      "resposta": "b"
+    },
+    {
+      "id": 2,
+      "pergunta": "Qual é a importância de ter um orçamento pessoal?",
+      "opcoes": [
+        "a) Aumentar os gastos mensais.",
+        "b) Controlar e planejar as finanças pessoais.",
+        "c) Evitar economizar dinheiro.",
+        "d) Nenhuma das anteriores."
+      ],
+      "resposta": "b"
+    }
+  ]
+  
