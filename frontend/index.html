@@ -2,18 +2,27 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Jogo de Educação Financeira</title>
+  <title>BemolPlay</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Estrela animada para a explosão ao final (inicialmente oculta) -->
   <div class="container">
-    <h1>Jogo de Educação Financeira</h1>
+    <header>
+      <img src="imagens/Bemol-marca-8.png" alt="Logo Bemol" class="logo">
+    </header>
+
+    <h1>BemolPlay</h1>
     <div id="pontuacao">Pontuação: 0</div>
-    <div id="pergunta">Carregando pergunta...</div>
+    <!-- Exibição das opções de resposta e feedback -->
     <div id="opcoes"></div>
     <div id="feedback"></div>
+
+    <!-- Botões de navegação -->
     <button id="proxima" style="display: none;">Próxima Pergunta</button>
-    <button id="reiniciar" style="display: none;">Reiniciar Jogo</button> <!-- Novo botão -->
+    <button id="reiniciar" style="display: none;">Reiniciar Jogo</button>
+
+    <!-- Mensagem de conclusão -->
     <div id="conclusao" style="display: none; white-space: pre-wrap;"></div>
   </div>
 
