@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+  }
+  
+  #opcoes button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #pontuacao {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
