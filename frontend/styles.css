@@ -109,13 +109,11 @@ h1 {
   font-weight: bold;
   border: none;
   border-radius: 30px;
-  margin-top: 20px;
+  margin: 20px auto; /* Centraliza o botão horizontalmente */
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-#proxima:hover {
-  background-color: #218838;
+  display: block; /* Garante que o botão ocupe o espaço como bloco */
+  text-align: center;
 }
 
 /* Botão "Reiniciar Jogo" com espaçamento reduzido */
@@ -137,44 +135,81 @@ h1 {
   background-color: #c9302c;
 }
 
-/* Caixa de conclusão com melhor legibilidade */
+/* Caixa de conclusão */
 #conclusao {
-  margin-top: 5px; /* Reduzido para diminuir espaçamento */
-  background-color: #ffffff; /* Fundo branco */
-  padding: 5px; /* Reduzido o padding para ajuste de tamanho */
-  border-radius: 12px;
-  border: 1px solid #b3d7f2; /* Borda azul clara */
-  color: #333; /* Texto cinza escuro para melhor contraste */
-  text-align: left;
-  font-size: 1.0em; /* Aumentar o tamanho da fonte */
-  line-height: 1.6; /* Aumentar o espaçamento entre linhas */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+  background-color: #f0f0f5; /* Light gray to match border color and soften contrast */
+  padding: 15px; /* Slightly increased padding for better readability */
+  border-radius: 16px; /* Matching the border-radius of the container */
+  color: #0073e6; /* Primary blue color for text to integrate with the theme */
+  text-align: left; /* Align text to the left for readability */
+  font-size: 1em; /* Increased font size slightly for readability */
+  line-height: 1.5; /* Slightly increased line height for clarity */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for consistency */
+  margin-top: 15px; /* Added spacing for separation from other elements */
 }
 
-/* Classe para as estrelas */
+/* Título e lista da conclusão */
+#conclusao h3 {
+  color: #0073e6; /* Primary color for the header */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.1em; /* Slightly increased size for prominence */
+}
+
+#conclusao ul {
+  list-style-type: disc;
+  padding-left: 20px; /* Adjusted for better alignment */
+  margin: 0;
+  color: #333333; /* Dark text for readability on light background */
+}
+
+#conclusao li {
+  margin-bottom: 8px; /* Added spacing for each list item */
+}
+
+#conclusao strong {
+  color: #0073e6; /* Use primary color for emphasis */
+}
+
+/* Animação de crescimento e explosão */
+@keyframes crescerExplodir {
+  0% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* Estrelas menores para a explosão */
 .estrela-explosao {
   position: absolute;
-  width: 30px; /* Tamanho da estrela */
-  height: 30px;
-  background-image: url('imagens/estrela.png'); /* Caminho para o PNG da estrela */
+  width: 80px;
+  height: 80px;
+  background-image: url('imagens/estrela.png');
   background-size: cover;
   opacity: 1;
-  animation: explosaoEstrela 2s ease-out forwards; /* Animação de explosão */
+  animation: dispersaoExplosao 1.5s ease-out forwards;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Animação de explosão e queda */
-@keyframes explosaoEstrela {
+/* Animação de dispersão */
+@keyframes dispersaoExplosao {
   0% {
     opacity: 1;
     transform: translate(0, 0) scale(1);
   }
-  50% {
-    opacity: 1;
-    transform: translate(var(--x), var(--y)) scale(1.2); /* A estrela vai para cima e para os lados */
-  }
   100% {
     opacity: 0;
-    transform: translate(var(--x-final), 500px) scale(0.8); /* A estrela cai para baixo e desaparece */
+    transform: translate(var(--x), var(--y)) scale(0.8);
   }
 }
-
